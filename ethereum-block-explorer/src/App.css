@@ -1,0 +1,66 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 50px; /* Adjust as needed to lower the elements on the screen */
+  }
+  
+  .App input {
+    margin: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .App input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  .App button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .App button:hover {
+    background-color: #0056b3;
+  }
+  
+  .App button:focus {
+    outline: none;
+  }
+  
+  .App table {
+    margin-top: 20px; /* Space between the button and the table */
+    border-collapse: collapse;
+    width: 80%; /* Adjust as per your layout needs */
+    border: 1px solid #ddd;
+  }
+  
+  .App table th,
+  .App table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .App table th {
+    background-color: #f2f2f2;
+  }
+  
+  .App table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .App table tr:hover {
+    background-color: #e9e9e9;
+  }
+  
